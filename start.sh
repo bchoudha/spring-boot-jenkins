@@ -1,2 +1,2 @@
 #!/bin/bash
-nohup ./start.sh > foo.out 2> foo.err < /dev/null &
+java -jar target/demo-0.0.1-SNAPSHOT.jar & echo $! > ./pid.file &
