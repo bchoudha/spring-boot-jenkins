@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Hellow to Accelerate Microsoftserver 2022 from bambam!";
+		return "Hellow to Accelerate Demo from k10 Microsoftserver 2022 from bambam!";
 	}
 
 }
